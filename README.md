@@ -57,18 +57,22 @@ Método: POST
 URL: http://127.0.0.1:8000/consultar
 Headers: Content-Type: application/json
 Body (raw JSON):
+
 ``
 {
   "pregunta": "¿Cómo puedo mejorar mi perfil como analista de datos?"
 }
 ``
+
 Respuesta esperada:
+
 ``
 {
   "respuesta": "Excelente pregunta! Como analista de datos, deberías destacar tus habilidades en...",
   "tiempo_respuesta_seg": 14.65
 }
 ``
+
 
 ## 📄 Créditos
 Desarrollado por Mauro Marsiglia
