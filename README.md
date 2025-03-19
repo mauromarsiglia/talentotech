@@ -29,12 +29,51 @@ Utiliza **LLaMA 3.2** a través de **Ollama** y está construido con **FastAPI**
 ## 🛠️ Instalación y Ejecución
 
 ### 1. Clona el repositorio
-```bash
+``
 git clone [https://github.com/tuusuario/tu-repo.git](https://github.com/mauromarsiglia/talentotech.git)
 cd talentotech
+``
 
-### 2. Clona el repositorio
-```bash
+### 2. Instalar dependencias
+``
 pip install fastapi uvicorn ollama
+``
 
+### 3. Descarga el modelo en Ollama
+``
+ollama pull llama3.2
+``
 
+### 4. Ejecuta la API
+``
+uvicorn app:app --port 8000 --workers 2
+``
+
+## 📬 Uso con Postman
+Método: POST
+URL: http://127.0.0.1:8000/consultar
+Headers: Content-Type: application/json
+Body (raw JSON):
+``
+{
+  "pregunta": "¿Cómo puedo mejorar mi perfil como analista de datos?"
+}
+``
+Respuesta esperada:
+``
+{
+  "respuesta": "Excelente pregunta! Como analista de datos, deberías destacar tus habilidades en...",
+  "tiempo_respuesta_seg": 14.65
+}
+``
+
+## 📄 Créditos
+Desarrollado por Mauro Marsiglia
+Clase de Chatbots – [Talento Tech].
+
+## 📜 Licencia
+
+---
+
+## ⚡ ¿Listo para compartirlo?  
+Este proyecto es de uso educativo y personal. Licencia [MIT].
