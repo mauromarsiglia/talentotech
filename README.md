@@ -30,6 +30,11 @@ Utiliza **LLaMA 3.2** a través de **Ollama** y está construido con **FastAPI**
 
 ### 1. Clona el repositorio
 ```bash
-git clone https://github.com/tuusuario/tu-repo.git
-cd tu-repo
+git clone [https://github.com/tuusuario/tu-repo.git](https://github.com/mauromarsiglia/talentotech.git)
+cd talentotech
+
+### 2. Clona el repositorio
+```bash
+pip install fastapi uvicorn ollama
+
 
