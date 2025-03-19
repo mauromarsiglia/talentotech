@@ -32,6 +32,7 @@ Utiliza **LLaMA 3.2** a través de **Ollama** y está construido con **FastAPI**
 ``
 git clone https://github.com/mauromarsiglia/talentotech.git
 ``
+
 ``
 cd talentotech
 ``
