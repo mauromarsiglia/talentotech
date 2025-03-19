@@ -79,8 +79,4 @@ Desarrollado por Mauro Marsiglia
 Clase de Chatbots – [Talento Tech].
 
 ## 📜 Licencia
-
----
-
-## ⚡ ¿Listo para compartirlo?  
 Este proyecto es de uso educativo y personal. Licencia [MIT].
