@@ -30,7 +30,9 @@ Utiliza **LLaMA 3.2** a través de **Ollama** y está construido con **FastAPI**
 
 ### 1. Clona el repositorio
 ``
-git clone [https://github.com/tuusuario/tu-repo.git](https://github.com/mauromarsiglia/talentotech.git)
+git clone https://github.com/mauromarsiglia/talentotech.git
+``
+``
 cd talentotech
 ``
 
