@@ -37,14 +37,17 @@ git clone https://github.com/mauromarsiglia/talentotech.git
 cd talentotech
 ``
 
-### 2. Instalar dependencias
-``
-pip install fastapi uvicorn ollama
-``
+### 2. Descarga el modelo en Ollama
+2.1 https://ollama.com/download/windows
+2.2
 
-### 3. Descarga el modelo en Ollama
 ``
 ollama pull llama3.2
+``
+
+### 3. Instalar dependencias
+``
+pip install fastapi uvicorn ollama
 ``
 
 ### 4. Ejecuta la API
